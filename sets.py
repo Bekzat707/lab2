@@ -11,11 +11,13 @@ if "apple" in fruits:
   fruits = {"apple", "banana", "cherry"}
 more_fruits = ["orange", "mango", "grapes"]
 fruits.update(more_fruits)
+print(fruits)
 
 # task4
 fruits = {"apple", "banana", "cherry"}
 fruits.remove("banana")
 
 # task5
-fruits = {"apple", "banana", "cherry"}  
+fruits = {"apple","banana", "cherry"}  
 fruits.discard("banana")
+print(fruits)
