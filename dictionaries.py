@@ -29,7 +29,6 @@ car =	{
   "model": "Mustang",
   "year": 1964
 }
-car.pop("model")
 
 # task5
 car =	{
@@ -38,3 +37,4 @@ car =	{
   "year": 1964
 }
 car.clear()
+print(car)
